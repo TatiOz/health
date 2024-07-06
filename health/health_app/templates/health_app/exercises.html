@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>{{ title }}</h1>
+
+<ul>
+    {% for e in exercises %}
+    {% if e.is_published is True %}
+    <li>
+        <h2>{{ e.title.capitalize }}</h2>
+        {{ e.content|linebreaks|truncatewords:10 }}
+        <p><a href="{{ e.get_absolute_url }}">Смотреть упражения</a></p>
+        {% if not forloop.last %}
+        <hr>
+        {% endif %}
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
+
+{% endblock %}
+
+

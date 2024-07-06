@@ -1,0 +1,35 @@
+<!-- Extend base.html if you have a base template -->
+{% extends 'base.html' %}
+
+<!-- Load static files if needed -->
+{% load static %}
+
+<!-- Define content block -->
+{% block content %}
+    <h1>Заполненная форма</h1>
+
+    <div>
+        <h2>{{ object.name }}</h2>
+        {% if object.photo %}
+            <img src="{{ object.photo.url }}" alt="Фото">
+        {% endif %}
+        <p><strong>Дата рождения:</strong> {{ date_birth }}</p>
+        <p><strong>Рост:</strong> {{ height }}</p>
+        <p><strong>Вес:</strong> {{ weight }}</p>
+        <p><strong>Жалобы:</strong> {{ object.complaints }}</p>
+        <p><strong>Анамнез:</strong> {{ object.medical_history }}</p>
+        <p><strong>Хронические болезни:</strong> {{ chronic_diseases }}</p>
+
+        <!-- You can add more fields here as needed -->
+
+        <!-- Display photo if available -->
+   <hr>
+    <p class="link-read-post"><a href="{% url 'profile' %}">Смотреть все записи</a></p>
+    </div>
+
+{% endblock %}
+
+<!-- Optionally, include CSS styles -->
+{% block css %}
+    <link rel="stylesheet" href="{% static 'health_app/styles.css' %}">
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Все записи</h1>
+
+<ul>
+    {% if object_list %}
+        {% for e in object_list %}
+        <li>
+            <h2>{{ e.name|capfirst }}</h2>
+            {{ e.time_create }}
+            {{ e.complaints|linebreaks|truncatewords:10 }}
+            <p><a href="{{ e.get_absolute_url }}">Смотреть запись</a></p>
+
+            {% if not forloop.last %}
+            <hr>
+            {% endif %}
+        </li>
+        {% endfor %}
+    {% else %}
+        <p>Нет записей для отображения.</p>
+    {% endif %}
+</ul>
+
+{% endblock %}

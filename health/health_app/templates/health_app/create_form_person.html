@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <h1>{{ title }}</h1>
+
+    <form action="" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+
+        <div class="form-error">{{ form.non_field_errors }}</div>
+
+        {% for f in form %}
+        <div class="form-group">
+            <label class="form-label" for="{{ f.id_for_label }}">{{ f.label }}</label>
+            {{ f }}
+            <div class="form-error">{{ f.errors }}</div>
+        </div>
+        {% endfor %}
+
+        <div class="form-group">
+            <button type="submit" class="form-button">Отправить</button>
+        </div>
+    </form>
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'health_app/styles.css' %}">
+{% endblock %}

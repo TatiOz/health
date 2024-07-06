@@ -1,0 +1,71 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{% static 'health_app/images/logo.png' %}" type="image/png"/>
+    <link type="text/css" href="{% static 'health_app/css/styles.css' %}" rel="stylesheet" />
+</head>
+<body>
+
+<table class="table-page" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td valign="top">
+            {% block mainmenu %}
+            <div class="header">
+                <ul id="mainmenu" class="mainmenu">
+                    <li class="logo"><a href="{% url 'home' %}"><div class="logo"></div></a></li>
+                    {% for m in menu %}
+                        {% if m.url_name != 'profile' %}
+                            <li><a href="{% url m.url_name %}">{{ m.title }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+
+                    {% if user.is_authenticated %}
+<!--                        <li class="last">{{ user.username }} | <a href="{% url 'users:logout' %}">Выйти</a></li>-->
+                        <li class="last"> <a href="{% url 'users:profile' %}">{{user.username}}</a> | <a href="{% url 'users:logout' %}">Выйти</a></li>
+                    {% else %}
+                        <li class="last"><a href="{% url 'users:login' %}">Войти</a> | <a href="{% url 'users:register' %}">Регистрация</a></li>
+                    {% endif %}
+                </ul>
+                <div class="clear"></div>
+            </div>
+            {% endblock mainmenu %}
+
+
+            <table class="table-content" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <!-- Left Sidebar (if any) -->
+                    <td valign="top" class="content">
+                        <!-- Breadcrumbs -->
+                        {% block breadcrumbs %}
+                        {% endblock %}
+
+                        <!-- Content Block -->
+                        <div class="content-text">
+                            {% block content %}
+                            {% endblock %}
+                        </div>
+                        <!-- End Content Block -->
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <!-- Footer Section -->
+    <tr>
+        <td valign="top">
+            <div id="footer">
+                <p>&copy; 2024 Company</p>
+                <p>Материалы, размещённые на сайте, не могут быть использованы для постановки диагноза и лечения, и не заменяют приём врача.</p>
+            </div>
+        </td>
+    </tr>
+</table>
+<!-- End Page Structure -->
+
+</body>
+</html>

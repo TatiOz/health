@@ -1,0 +1,595 @@
+[
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$PKyNALiq9AfDXkNYc1s9K8$gLTOe1hNbOJbvVdRnx4Ito7HxRX96VQSFjo0u54M2Bc=",
+    "last_login": "2024-07-05T16:52:34.694Z",
+    "is_superuser": false,
+    "username": "TATIANA",
+    "first_name": "TATIANA",
+    "last_name": "OZHGIBESOVA",
+    "email": "ozhgibesovatatiana@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-07-04T13:16:07.770Z",
+    "photo": "",
+    "date_birth": "1924-01-01T00:00:00Z",
+    "chronic_diseases": "asdxfghjkh",
+    "height": "124",
+    "weight": "67",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$7c7xLrIHjZXPSW7rmAYzkx$hWVL5l3MqC5buCWc9bxrDQGoyVsyGw+my6aScAn7XV0=",
+    "last_login": "2024-07-04T13:17:07Z",
+    "is_superuser": false,
+    "username": "Tatiana_oz",
+    "first_name": "TATIANA",
+    "last_name": "OZHGIBESOVA",
+    "email": "ozhgibesovatatian@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-07-04T13:16:51Z",
+    "photo": "",
+    "date_birth": "1924-01-01T00:00:00Z",
+    "chronic_diseases": "",
+    "height": "12",
+    "weight": "12",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$nJ6t2LNZECrnltmt3pCLCG$3ZXsvXMj8HLBvwTVqwUvB+ghNgoZjL0C9PNEAKssnhk=",
+    "last_login": "2024-07-04T22:22:34.290Z",
+    "is_superuser": false,
+    "username": "ozhgibesovatat@gmail.com",
+    "first_name": ".Kc4pFBgh*tRVE4",
+    "last_name": "neurology",
+    "email": "ozhgibesovatati@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-07-04T22:22:09.175Z",
+    "photo": "",
+    "date_birth": null,
+    "chronic_diseases": "qasdf",
+    "height": "12",
+    "weight": "12",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$QI3Ro7aFSVIR74MkHjNMsI$E7MBfg7r9pe0bSjdMhh8eEBea+6PbeYXodxd29HOqrA=",
+    "last_login": "2024-07-04T22:29:34Z",
+    "is_superuser": false,
+    "username": "ozhgibesovatat",
+    "first_name": "ertyuio",
+    "last_name": "OZHGIBESOVA",
+    "email": "ozhgibesovatat@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-07-04T22:26:31Z",
+    "photo": "",
+    "date_birth": "1994-01-01T00:00:00Z",
+    "chronic_diseases": "",
+    "height": "",
+    "weight": "64",
+    "groups": [],
+    "user_permissions": [
+      6
+    ]
+  }
+},
+{
+  "model": "users.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$tJ1rYQFQw3GZjjZPRapi01$2Yz94VJBGpKkGfe/VLHh0cdKTX2ajDo4qFHCJQ6ugTw=",
+    "last_login": "2024-07-05T21:18:54.459Z",
+    "is_superuser": false,
+    "username": "ozhgibesovatatiana@gmail.com",
+    "first_name": "TATIANA",
+    "last_name": "OZHGIBESOVA",
+    "email": "iana@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-07-05T17:23:39.483Z",
+    "photo": "",
+    "date_birth": "1924-01-01T00:00:00Z",
+    "chronic_diseases": "asdfg",
+    "height": "123",
+    "weight": "123",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.formpersoncomplains",
+  "pk": 1,
+  "fields": {
+    "complaints": "wqertyui",
+    "medical_history": "wertyui",
+    "slug": "wqertyui",
+    "photo": "",
+    "time_create": "2024-07-04T13:35:37.589Z",
+    "time_update": "2024-07-04T13:35:37.589Z",
+    "is_published": 0,
+    "profile_id": 2
+  }
+},
+{
+  "model": "users.formpersoncomplains",
+  "pk": 2,
+  "fields": {
+    "complaints": "wqertyui",
+    "medical_history": "wertyui",
+    "slug": "wqertyui-2",
+    "photo": "",
+    "time_create": "2024-07-04T13:35:44.249Z",
+    "time_update": "2024-07-04T13:35:44.249Z",
+    "is_published": 0,
+    "profile_id": 2
+  }
+},
+{
+  "model": "users.formpersoncomplains",
+  "pk": 3,
+  "fields": {
+    "complaints": "wqertyui",
+    "medical_history": "wertyui",
+    "slug": "wqertyui-3",
+    "photo": "",
+    "time_create": "2024-07-04T13:36:57.746Z",
+    "time_update": "2024-07-04T13:36:57.746Z",
+    "is_published": 0,
+    "profile_id": 2
+  }
+},
+{
+  "model": "users.formpersoncomplains",
+  "pk": 4,
+  "fields": {
+    "complaints": "sdf",
+    "medical_history": "dsf",
+    "slug": "sdf",
+    "photo": "",
+    "time_create": "2024-07-04T13:46:50.711Z",
+    "time_update": "2024-07-04T13:46:50.711Z",
+    "is_published": 0,
+    "profile_id": 2
+  }
+},
+{
+  "model": "users.formpersoncomplains",
+  "pk": 5,
+  "fields": {
+    "complaints": "345t",
+    "medical_history": "ert",
+    "slug": "345t",
+    "photo": "",
+    "time_create": "2024-07-04T14:14:03.275Z",
+    "time_update": "2024-07-04T14:14:03.275Z",
+    "is_published": 0,
+    "profile_id": 2
+  }
+},
+{
+  "model": "users.formpersoncomplains",
+  "pk": 6,
+  "fields": {
+    "complaints": "цыувкаеп",
+    "medical_history": "цувкапук",
+    "slug": "-2",
+    "photo": "",
+    "time_create": "2024-07-04T14:19:52.066Z",
+    "time_update": "2024-07-04T14:19:52.066Z",
+    "is_published": 1,
+    "profile_id": 1
+  }
+},
+{
+  "model": "users.formpersoncomplains",
+  "pk": 7,
+  "fields": {
+    "complaints": "ойойойойой",
+    "medical_history": "5 лет",
+    "slug": "-3",
+    "photo": "users/2024/07/04/blockquote.png",
+    "time_create": "2024-07-04T20:59:50.376Z",
+    "time_update": "2024-07-04T20:59:50.376Z",
+    "is_published": 1,
+    "profile_id": 2
+  }
+},
+{
+  "model": "users.formpersoncomplains",
+  "pk": 8,
+  "fields": {
+    "complaints": "i chaged something and all is good now and im so happy",
+    "medical_history": "thank you",
+    "slug": "i-chaged-something-and-all-is-good-now-and-im-so-h",
+    "photo": "",
+    "time_create": "2024-07-04T21:31:08.275Z",
+    "time_update": "2024-07-04T21:31:08.275Z",
+    "is_published": 1,
+    "profile_id": 2
+  }
+},
+{
+  "model": "users.formpersoncomplains",
+  "pk": 9,
+  "fields": {
+    "complaints": "92345678",
+    "medical_history": "1234567890",
+    "slug": "92345678",
+    "photo": "",
+    "time_create": "2024-07-04T22:03:15.058Z",
+    "time_update": "2024-07-04T22:03:15.058Z",
+    "is_published": 1,
+    "profile_id": 2
+  }
+},
+{
+  "model": "users.formpersoncomplains",
+  "pk": 10,
+  "fields": {
+    "complaints": "1234567",
+    "medical_history": "12345678",
+    "slug": "1234567",
+    "photo": "",
+    "time_create": "2024-07-04T22:20:28.598Z",
+    "time_update": "2024-07-04T22:20:28.606Z",
+    "is_published": 0,
+    "profile_id": 2
+  }
+},
+{
+  "model": "users.formpersoncomplains",
+  "pk": 11,
+  "fields": {
+    "complaints": "form_instance = form.save(        form_instance = form.save(commit=False)\r\n        form_instance.profile_id = self.request.user  # Set profile_id to current user\r\n        form_instance.save()\r\n        return super().form_valid(form)commit=False)\r\n        form_instance.profile_id = self.request.user  # Set profile_id to current user\r\n        form_instance.save()\r\n        return super().form_valid(form)",
+    "medical_history": "form_instance = form.save(commit=False)\r\n        form_instance.profile_id = self.request.user  # Set profile_id to current user\r\n        form_instance.save()\r\n        return super().form_valid(form)",
+    "slug": "form_instance-formsave-form_instance-formsavecommi",
+    "photo": "users/2024/07/05/smallmenu.png",
+    "time_create": "2024-07-04T22:20:47.876Z",
+    "time_update": "2024-07-04T22:20:47.884Z",
+    "is_published": 0,
+    "profile_id": 2
+  }
+},
+{
+  "model": "users.formpersoncomplains",
+  "pk": 12,
+  "fields": {
+    "complaints": "ozhgibesovatati@gmail.comozhgibesovatati@gmail.comozhgibesovatati@gmail.comozhgibesovatati@gmail.comozhgibesovatati@gmail.comozhgibesovatati@gmail.com",
+    "medical_history": "ozhgibesovatati@gmail.comozhgibesovatati@gmail.comozhgibesovatati@gmail.comozhgibesovatati@gmail.comozhgibesovatati@gmail.com",
+    "slug": "ozhgibesovatatigmailcomozhgibesovatatigmailcomozhg",
+    "photo": "",
+    "time_create": "2024-07-04T22:22:46.947Z",
+    "time_update": "2024-07-04T22:22:46.957Z",
+    "is_published": 0,
+    "profile_id": 3
+  }
+},
+{
+  "model": "users.formpersoncomplains",
+  "pk": 13,
+  "fields": {
+    "complaints": "ozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatat",
+    "medical_history": "ozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatatozhgibesovatat",
+    "slug": "ozhgibesovatatozhgibesovatatozhgibesovatatozhgibes",
+    "photo": "",
+    "time_create": "2024-07-04T22:29:53.071Z",
+    "time_update": "2024-07-04T22:29:53.084Z",
+    "is_published": 1,
+    "profile_id": 4
+  }
+},
+{
+  "model": "users.formpersoncomplains",
+  "pk": 14,
+  "fields": {
+    "complaints": "wsedfgh",
+    "medical_history": "sdfghn",
+    "slug": "wsedfgh",
+    "photo": "",
+    "time_create": "2024-07-05T11:52:14.454Z",
+    "time_update": "2024-07-05T11:52:14.462Z",
+    "is_published": 0,
+    "profile_id": 1
+  }
+},
+{
+  "model": "users.formpersoncomplains",
+  "pk": 15,
+  "fields": {
+    "complaints": "asdfghj",
+    "medical_history": "asdfgh",
+    "slug": "asdfghj",
+    "photo": "",
+    "time_create": "2024-07-05T12:13:38.429Z",
+    "time_update": "2024-07-05T12:13:38.435Z",
+    "is_published": 0,
+    "profile_id": 1
+  }
+},
+{
+  "model": "users.formpersoncomplains",
+  "pk": 16,
+  "fields": {
+    "complaints": "ASDF",
+    "medical_history": "ERGTFVCDSADF",
+    "slug": "asdf",
+    "photo": "",
+    "time_create": "2024-07-05T16:58:05.414Z",
+    "time_update": "2024-07-05T16:58:05.426Z",
+    "is_published": 0,
+    "profile_id": 1
+  }
+},
+{
+  "model": "users.formpersoncomplains",
+  "pk": 17,
+  "fields": {
+    "complaints": "sdfvbdsfgd",
+    "medical_history": "derfghgfds",
+    "slug": "sdfvbdsfgd",
+    "photo": "",
+    "time_create": "2024-07-05T17:24:27.103Z",
+    "time_update": "2024-07-05T17:24:27.123Z",
+    "is_published": 0,
+    "profile_id": 5
+  }
+},
+{
+  "model": "users.formpersoncomplains",
+  "pk": 18,
+  "fields": {
+    "complaints": "ывапр",
+    "medical_history": "ывапрввап",
+    "slug": "-4",
+    "photo": "",
+    "time_create": "2024-07-05T17:31:55.701Z",
+    "time_update": "2024-07-05T17:31:55.718Z",
+    "is_published": 0,
+    "profile_id": 5
+  }
+},
+{
+  "model": "health_app.health",
+  "pk": 2,
+  "fields": {
+    "title": "neck",
+    "slug": "neck",
+    "content": "Упражнения для шеи помогают укрепить мышцы, улучшить гибкость и уменьшить напряжение, что особенно важно для людей, проводящих много времени за компьютером или ведущих малоподвижный образ жизни. \n\nВот несколько эффективных упражнений:\n\n\nНаклоны головы вперед-назад: Сядьте прямо, опустите подбородок к груди, затем медленно поднимите голову назад, глядя вверх. Повторите 10-15 раз. Это упражнение растягивает задние мышцы шеи и укрепляет передние.\n\n\nПовороты головы в стороны: Сядьте прямо и поверните голову вправо, стараясь посмотреть через плечо. Вернитесь в исходное положение и повторите влево. Сделайте 10-15 повторений на каждую сторону. Упражнение улучшает гибкость боковых мышц шеи.\n\n\nНаклоны головы в стороны: Наклоните голову к правому плечу, стараясь ухом достичь плеча. Плечи должны оставаться неподвижными. Повторите на другую сторону. Выполните 10-15 повторений для каждой стороны. Это упражнение растягивает боковые мышцы шеи.\n\n\nСопротивление руками: Положите ладонь на лоб и попробуйте наклонить голову вперед, оказывая сопротивление рукой. Задержитесь на 5-10 секунд. Затем положите руку на затылок и повторите упражнение, оказывая сопротивление при наклоне головы назад. Далее, приложите руку к правому виску и попытайтесь наклонить голову к правому плечу, оказывая сопротивление. Повторите для левого виска. Сделайте по 5-10 секунд на каждое положение.\n\n\nКруговые вращения головой: Сядьте прямо и медленно вращайте головой по кругу, сначала по часовой стрелке, затем против часовой стрелки. Выполните по 5-10 кругов в каждую сторону. Это упражнение помогает снять напряжение и улучшить кровообращение.\n\n\nРегулярное выполнение этих упражнений способствует улучшению состояния мышц шеи, уменьшению болей и предотвращению развития хронических заболеваний, связанных с неправильной осанкой и статическими нагрузками.\n",
+    "link": "neck",
+    "time_create": "2024-06-08T19:54:40.546Z",
+    "time_update": "2024-06-08T19:54:40.546Z",
+    "is_published": true
+  }
+},
+{
+  "model": "health_app.health",
+  "pk": 3,
+  "fields": {
+    "title": "thoracic",
+    "slug": "thoracic",
+    "content": "Упражнения для грудного отдела спины направлены на укрепление мышц, улучшение гибкости и уменьшение напряжения в этой области. Эти упражнения особенно полезны для людей, ведущих сидячий образ жизни и часто испытывающих дискомфорт в верхней части спины. \n\nВот несколько эффективных упражнений:\n\nРазведение рук с гантелями: Сядьте на стул или скамью с прямой спиной. В каждой руке держите по небольшой гантели. Разведите руки в стороны, стараясь свести лопатки вместе. Медленно вернитесь в исходное положение. Повторите 10-15 раз. Это упражнение укрепляет мышцы верхней части спины и плеч.\n\nПодтягивание лопаток: Сядьте или станьте прямо, руки вдоль тела. Плавно поднимите плечи к ушам, стараясь свести лопатки вместе, затем медленно опустите. Повторите 10-15 раз. Это упражнение помогает улучшить осанку и снять напряжение с мышц шеи и плеч.\n\nСкручивание грудного отдела: Сядьте на стул с прямой спиной, руки сцеплены за головой. Медленно поверните верхнюю часть тела вправо, стараясь смотреть за плечо. Задержитесь на несколько секунд и вернитесь в исходное положение. Повторите в другую сторону. Выполните 10-15 повторений на каждую сторону. Это упражнение увеличивает гибкость грудного отдела позвоночника.\n\nМостик на лопатках: Лягте на спину, ноги согнуты в коленях, ступни на полу. Поднимите таз вверх, упираясь на плечи и стопы, стараясь свести лопатки вместе. Задержитесь в верхней точке на 5-10 секунд и медленно опуститесь. Повторите 10-15 раз. Упражнение укрепляет мышцы спины и улучшает кровообращение.\n\nРастяжка грудного отдела: Станьте на четвереньки, руки и колени на ширине плеч. Медленно прогните спину, поднимая голову вверх и отводя плечи назад. Затем выгните спину, опуская голову вниз. Повторите 10-15 раз. Это упражнение помогает снять напряжение и улучшить подвижность позвоночника.\n\nРегулярное выполнение этих упражнений способствует укреплению мышц грудного отдела спины, улучшению осанки и снижению риска возникновения болей и дискомфорта в этой области.\n\n",
+    "link": "thoracic",
+    "time_create": "2024-06-08T19:54:40.567Z",
+    "time_update": "2024-06-08T19:54:40.567Z",
+    "is_published": true
+  }
+},
+{
+  "model": "health_app.health",
+  "pk": 4,
+  "fields": {
+    "title": "lumbar",
+    "slug": "lumbar",
+    "content": "Упражнения для поясницы важны для укрепления мышц нижней части спины, улучшения гибкости и предотвращения болей. Эти упражнения полезны как для людей, ведущих малоподвижный образ жизни, так и для тех, кто активно занимается физической деятельностью.\n\nВот несколько эффективных упражнений:\n\nКошка-корова: Встаньте на четвереньки, руки и колени на ширине плеч. Вдохните, прогибая спину вниз и поднимая голову вверх (поза коровы). Выдохните, выгибая спину вверх и опуская голову (поза кошки). Повторите 10-15 раз. Это упражнение улучшает гибкость позвоночника и снимает напряжение с поясницы.\n\nНаклоны вперед: Встаньте прямо, ноги на ширине плеч. Медленно наклонитесь вперед, стараясь дотянуться руками до пола или к пальцам ног, при этом сохраняйте спину прямой. Задержитесь в этом положении на 10-15 секунд и вернитесь в исходное положение. Повторите 10 раз. Упражнение растягивает мышцы поясницы и задней поверхности бедер.\n\nМостик: Лягте на спину, ноги согнуты в коленях, ступни на полу. Поднимите таз вверх, упираясь на плечи и стопы. Задержитесь в верхней точке на 5-10 секунд и медленно опуститесь. Повторите 10-15 раз. Упражнение укрепляет мышцы поясницы и ягодиц.\n\nПодтягивание коленей к груди: Лягте на спину, ноги прямые. Согните одну ногу в колене и подтяните ее к груди, обхватив руками. Задержитесь на 10-15 секунд и вернитесь в исходное положение. Повторите с другой ногой. Выполните 10-15 раз для каждой ноги. Упражнение снимает напряжение в пояснице и улучшает гибкость.\n\nПланка: Лягте на живот, затем поднимитесь на предплечья и носки, выпрямляя тело в одну линию. Задержитесь в этом положении на 20-30 секунд, постепенно увеличивая время до минуты. Упражнение укрепляет мышцы кора, включая поясницу.\n\nРегулярное выполнение этих упражнений способствует укреплению мышц поясницы, улучшению гибкости и снижению риска возникновения болей и дискомфорта в нижней части спины.\n",
+    "link": "lumbar",
+    "time_create": "2024-06-08T19:54:40.583Z",
+    "time_update": "2024-06-08T19:54:40.583Z",
+    "is_published": true
+  }
+},
+{
+  "model": "health_app.blog",
+  "pk": 1,
+  "fields": {
+    "title": "Инсульт",
+    "subtitle": "Неотложное Состояние Мозга",
+    "slug": "blog-1",
+    "photo": "",
+    "content": "Инсульт — это острое нарушение кровоснабжения мозга, приводящее к повреждению или гибели нейронов. Основные типы инсультов — ишемический (вызванный закупоркой артерии) и геморрагический (вызванный разрывом сосуда). Инсульт сопровождается внезапными симптомами, такими как слабость или паралич одной стороны тела, проблемы с речью и зрением, сильная головная боль. Быстрая медицинская помощь имеет решающее значение для минимизации повреждений мозга и улучшения прогноза. Лечение включает тромболитическую терапию для растворения тромбов, хирургическое вмешательство для устранения кровоизлияния и реабилитацию. Профилактика инсульта включает контроль факторов риска, таких как гипертония, диабет и высокое содержание холестерина.",
+    "time_create": "2024-06-10T16:36:56.278Z",
+    "time_update": "2024-06-10T16:36:56.278Z",
+    "is_published": 1,
+    "category": 1
+  }
+},
+{
+  "model": "health_app.blog",
+  "pk": 2,
+  "fields": {
+    "title": "Мигрень",
+    "subtitle": "Боль за Гранью Обычного",
+    "slug": "blog-2",
+    "photo": "",
+    "content": "Мигрень — это хроническое неврологическое заболевание, характеризующееся сильными головными болями, которые часто сопровождаются тошнотой, рвотой и чувствительностью к свету и звукам. Приступы мигрени могут длиться от нескольких часов до нескольких дней и значительно снижать качество жизни. Точные причины мигрени неизвестны, но предполагается, что они связаны с генетическими факторами и нарушениями в работе нейротрансмиттеров. Лечение мигрени включает как медикаментозную терапию для снятия острого приступа, так и профилактические меры для уменьшения частоты и тяжести приступов. К ним относятся изменение образа жизни, избегание триггеров и использование профилактических препаратов.",
+    "time_create": "2024-06-10T16:36:56.286Z",
+    "time_update": "2024-06-10T16:36:56.286Z",
+    "is_published": 1,
+    "category": 2
+  }
+},
+{
+  "model": "health_app.blog",
+  "pk": 3,
+  "fields": {
+    "title": "Болезнь Гентингтона",
+    "subtitle": "Наследственное Нейродегенеративное Заболевание",
+    "slug": "blog-3",
+    "photo": "",
+    "content": "Болезнь Гентингтона — это редкое генетическое заболевание, приводящее к прогрессивному разрушению нейронов в мозге. Симптомы включают непроизвольные движения (хорею), нарушения координации, когнитивные и психиатрические расстройства. Болезнь проявляется в среднем возрасте и постепенно прогрессирует, приводя к значительным физическим и когнитивным нарушениям. Болезнь Гентингтона наследуется по аутосомно-доминантному типу, что означает, что у каждого ребёнка больного родителя есть 50% шанс унаследовать мутированный ген. В настоящее время нет лечения, способного остановить или замедлить прогрессирование заболевания, однако существуют методы для управления симптомами и улучшения качества жизни пациентов. Текущие исследования направлены на разработку генетических и молекулярных терапий, которые могут изменить ход болезни в будущем.",
+    "time_create": "2024-06-10T16:36:56.294Z",
+    "time_update": "2024-06-10T16:36:56.294Z",
+    "is_published": 1,
+    "category": 3
+  }
+},
+{
+  "model": "health_app.blog",
+  "pk": 4,
+  "fields": {
+    "title": "Профилактика Неврологических Заболеваний",
+    "subtitle": "Образ Жизни и Питание",
+    "slug": "blog-4",
+    "photo": "",
+    "content": "Профилактика неврологических заболеваний начинается с здорового образа жизни и правильного питания. Сбалансированное питание, богатое витаминами и минералами, поддерживает здоровье мозга. Включите в рацион продукты, богатые омега-3 жирными кислотами (рыба, льняное масло), антиоксидантами (ягоды, орехи, зелень) и витаминами группы B (цельнозерновые, мясо, молочные продукты). Регулярная физическая активность способствует улучшению кровообращения и снижению риска заболеваний, таких как инсульт и деменция. Стремитесь к 150 минутам умеренной физической активности в неделю, включая аэробные упражнения и силовые тренировки. Также важно управлять стрессом через практики релаксации, такие как йога и медитация, и поддерживать достаточный уровень сна, чтобы избежать негативного воздействия на нервную систему. Отказ от курения и умеренное употребление алкоголя также играют ключевую роль в поддержании неврологического здоровья.",
+    "time_create": "2024-06-10T16:36:56.300Z",
+    "time_update": "2024-06-10T16:36:56.300Z",
+    "is_published": 1,
+    "category": 4
+  }
+},
+{
+  "model": "health_app.blog",
+  "pk": 5,
+  "fields": {
+    "title": "Улучшение Когнитивной Функции",
+    "subtitle": "Упражнения для Мозга",
+    "slug": "blog-5",
+    "photo": "",
+    "content": "Поддержание когнитивной функции на высоком уровне возможно благодаря регулярной умственной активности. Мозг, подобно мышцам, требует постоянной тренировки. Чтение книг, решение головоломок и участие в интеллектуальных играх (шахматы, судоку) стимулируют работу мозга и способствуют улучшению памяти и концентрации. Освоение новых навыков и хобби, таких как изучение языков, игра на музыкальных инструментах или творчество, способствует образованию новых нейронных связей и поддержанию когнитивной гибкости. Социальная активность также играет важную роль: общение с друзьями и участие в групповых мероприятиях стимулируют мозг и уменьшают риск когнитивного спада. Наконец, регулярные медицинские осмотры и ранняя диагностика неврологических проблем помогут своевременно выявить и начать лечение потенциальных заболеваний, что является важной частью комплексной стратегии по поддержанию когнитивного здоровья.",
+    "time_create": "2024-06-10T16:36:56.306Z",
+    "time_update": "2024-06-10T16:36:56.306Z",
+    "is_published": 1,
+    "category": 1
+  }
+},
+{
+  "model": "health_app.blog",
+  "pk": 6,
+  "fields": {
+    "title": "Революция в Лечении Спинномозговых Травм",
+    "subtitle": "Прорыв в Регенеративной Медицине",
+    "slug": "blog-6",
+    "photo": "",
+    "content": "Одним из значительных научных достижений в области неврологии стало открытие методов, позволяющих стимулировать регенерацию спинного мозга после травм. Спинномозговые травмы часто приводят к серьезным и необратимым последствиям, включая паралич и потерю чувствительности. Долгое время считалось, что нервные клетки спинного мозга не могут регенерировать, что делало травмы спинного мозга неизлечимыми. Однако недавние исследования изменили это представление.\n\nВажным прорывом стало использование стволовых клеток для восстановления поврежденных участков спинного мозга. Стволовые клетки обладают уникальной способностью превращаться в различные типы клеток организма, включая нейроны и глиальные клетки. В лабораторных условиях ученые научились дифференцировать стволовые клетки в нейроны и успешно внедрять их в поврежденные участки спинного мозга, способствуя восстановлению нейронных связей и улучшению двигательных функций.\n\nКроме того, исследования показали, что использование генных терапий и биоматериалов может значительно улучшить результаты лечения. Генные терапии позволяют изменять генетический материал клеток для стимулирования их роста и регенерации, а биоматериалы создают благоприятную среду для роста новых нервных волокон.\n\nЭкспериментальные лечения, проведенные на животных моделях, показали многообещающие результаты, и сейчас эти методы проходят клинические испытания на людях. Эти достижения открывают новые горизонты в лечении спинномозговых травм, давая надежду миллионам людей на восстановление двигательных функций и улучшение качества жизни.\n\nТаким образом, революционные методы регенеративной медицины представляют собой важный шаг вперед в области неврологии, меняя подход к лечению спинномозговых травм и открывая новые перспективы для разработки эффективных терапий в будущем.",
+    "time_create": "2024-06-10T16:36:56.314Z",
+    "time_update": "2024-06-10T16:36:56.314Z",
+    "is_published": 1,
+    "category": 2
+  }
+},
+{
+  "model": "health_app.blog_category",
+  "pk": 1,
+  "fields": {
+    "name": "Diseases",
+    "slug": "diseases"
+  }
+},
+{
+  "model": "health_app.blog_category",
+  "pk": 2,
+  "fields": {
+    "name": "Health advices",
+    "slug": "advices"
+  }
+},
+{
+  "model": "health_app.blog_category",
+  "pk": 3,
+  "fields": {
+    "name": "News",
+    "slug": "news"
+  }
+},
+{
+  "model": "health_app.blog_category",
+  "pk": 4,
+  "fields": {
+    "name": "Treatment",
+    "slug": "treatment"
+  }
+},
+{
+  "model": "health_app.menuitem",
+  "pk": 1,
+  "fields": {
+    "title": "Главное меню",
+    "url_name": "home",
+    "authenticated_only": false
+  }
+},
+{
+  "model": "health_app.menuitem",
+  "pk": 2,
+  "fields": {
+    "title": "Обо мне",
+    "url_name": "about",
+    "authenticated_only": false
+  }
+},
+{
+  "model": "health_app.menuitem",
+  "pk": 3,
+  "fields": {
+    "title": "Жалобы",
+    "url_name": "create_form_person",
+    "authenticated_only": true
+  }
+},
+{
+  "model": "health_app.menuitem",
+  "pk": 4,
+  "fields": {
+    "title": "Упражнения",
+    "url_name": "exercises",
+    "authenticated_only": true
+  }
+},
+{
+  "model": "health_app.menuitem",
+  "pk": 5,
+  "fields": {
+    "title": "Блог",
+    "url_name": "blogs",
+    "authenticated_only": true
+  }
+},
+{
+  "model": "health_app.menuitem",
+  "pk": 6,
+  "fields": {
+    "title": "Профиль",
+    "url_name": "profile",
+    "authenticated_only": true
+  }
+},
+{
+  "model": "health_app.menuitem",
+  "pk": 7,
+  "fields": {
+    "title": "Контакты",
+    "url_name": "contact",
+    "authenticated_only": false
+  }
+}
+]

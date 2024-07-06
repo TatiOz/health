@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{{ blog.title.capitalize }}</h1>
+<p><i>{{ blog.subtitle.capitalize }}</i></p>
+
+{% if blog.photo %}
+<p><img class="img-article-left" src="{{ blog.photo.url}}"/></p>
+{% endif %}
+
+{{blog.content|linebreaks}}
+{% endblock %}

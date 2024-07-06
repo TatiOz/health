@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+{% load blog_tags %}
+{% block content %}
+
+<h1>{{ title }}</h1>
+
+<ul class="list-articles">
+	{% for p in blog_posts %}
+    <li><div class="article-panel-default">
+    <h2 class="first">{{ e.title.capitalize }}</h2>
+    <p class="last"><i>{{ e.subtitle.capitalize }}</i></p>
+    </div>
+				<h2>{{p.title}}</h2>
+    {% autoescape off %}
+	{{p.content|linebreaks|truncatewords:40}}
+
+{% if p.photo %}
+	<p><img class="img-article-left thumb" src="{{ p.photo.url}}"/></p>
+{% endif %}
+
+    {% endautoescape %}
+			<div class="clear"></div>
+			<p class="link-read-post"><a href="{{ p.get_absolute_url }}">Читать пост</a></p>
+			</li>
+	{% endfor %}
+</ul>
+
+
+
+<ul class="list-articles">
+	{% for p in blog %}
+    <li><div class="article-panel-default">
+    <h2 class="first">{{ e.title.capitalize }}</h2>
+    <p class="last"><i>{{ e.subtitle.capitalize }}</i></p>
+    </div>
+				<h2>{{p.title}}</h2>
+    {% autoescape off %}
+	{{p.content|linebreaks|truncatewords:40}}
+
+{% if p.photo %}
+	<p><img class="img-article-left thumb" src="{{ p.photo.url}}"/></p>
+{% endif %}
+
+    {% endautoescape %}
+			<div class="clear"></div>
+			<p class="link-read-post"><a href="{{ p.get_absolute_url }}">Читать пост</a></p>
+			</li>
+	{% endfor %}
+</ul>
+
+
+
+<!-- Sidebar слева -->
+<td valign="top" class="left-chapters">
+	<ul id="leftchapters">
+<!--		{% if selected_cat == 0 or selected_cat is None %}-->
+		<li class="selected"><a href="{% url 'blogs' %}">Все категории</a> </li>
+<!--		{% else %}-->
+		<li class="selected"><a href="{% url 'blogs' %}">Все категории</a></li>
+<!--		{% endif %}-->
+
+        {% show_blog_categories selected_cat %}
+
+		<li class="share">
+		<p>Наш канал</p>
+		<a class="share-yt" href="https://vk.com/tanyana_oz" target="_blank" rel="nofollow"></a>
+		</li>
+	</ul>
+</td>
+
+
+
+{% endblock %}
