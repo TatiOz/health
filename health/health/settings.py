@@ -163,8 +163,8 @@ AUTHENTICATION_BACKENDS = [
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 465
-EMAIL_HOST_USER = 'neurological.helper@gmail.com'
-EMAIL_HOST_PASSWORD = 'mcoy gakh igdc dtsa'
+EMAIL_HOST_USER = 'xxx.xxx@gmail.com'
+EMAIL_HOST_PASSWORD = 'xxx'
 EMAIL_USE_SSL = True
 
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
